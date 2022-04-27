@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://lcns-sjtu.github.io/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lab of Computational Neuroscience | Page not found</title>
+    <title>Lab of Computational Neuroscience | Generating Coherent Patterns of Activity from Chaotic Neural Networks</title>
     <meta name="author" content="Lab of Computational Neuroscience  " />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Sussillo and Abbott improved the echo-state network (ESN) with FORCE algorithm, which is more robust again noise and perturbations. They also provided the analysis of train dynamics and reverse-engineering of network dynamics for reservoir network generating coherent patterns." />
     <meta name="keywords" content="computational-neuroscience, applied-mathematics" />
 
 
@@ -30,7 +30,7 @@
     <!-- Styles -->
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://lcns-sjtu.github.io/404.html">
+    <link rel="canonical" href="https://lcns-sjtu.github.io/blog/2020/KaiChen1/">
     
     <!-- Dark Mode -->
     
@@ -83,7 +83,7 @@
                 <a class="nav-link" href="/resources/">resources</a>
               </li>
 <!-- Blog -->
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="/blog/">journal club</a>
               </li>
 
@@ -111,22 +111,56 @@
       </div>
     
     <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
+      <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            
-              <h1 class="post-title">Page not found</h1>
-              <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-            
-          </header>
+<div class="post">
 
-          <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://lcns-sjtu.github.io/">here</a>.</p>
+  <header class="post-header">
+    <h1 class="post-title">Generating Coherent Patterns of Activity from Chaotic Neural Networks</h1>
+    <p class="post-meta">December 9, 2020• Kai Chen</p>
+    <p class="post-tags">
+      <a href="/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
+        ·  
+        <a href="/blog/tag/rnn">
+          <i class="fas fa-hashtag fa-sm"></i> RNN</a>  
+          <a href="/blog/tag/reservoir-computing">
+          <i class="fas fa-hashtag fa-sm"></i> reservoir-computing</a>  
+          <a href="/blog/tag/force">
+          <i class="fas fa-hashtag fa-sm"></i> FORCE</a>  
+          <a href="/blog/tag/esn">
+          <i class="fas fa-hashtag fa-sm"></i> ESN</a>  
+          
 
-          </article>
+    </p>
+  </header>
 
-        </div>
+  <article class="post-content">
+    <p>Sussillo and Abbott improved the echo-state network (ESN) with FORCE algorithm, which is more robust again noise and perturbations. They also provided the analysis of train dynamics and reverse-engineering of network dynamics for reservoir network generating coherent patterns.</p>
+
+<ul>
+  <li>
+    <p>Due to the chaotic nature, conventional BP fails in training RNN. Reservoir computing, using the echo-state property of RNNs, trains the output weight without manipulating the random reservoir current connectivity, and is capable to performing different tasks.</p>
+  </li>
+  <li>
+    <p>Compared with ESN (Jaeger 2004), FORCE algorithm is more robust against perturbations, and is more capable of multi-task continual learning.</p>
+  </li>
+  <li>
+    <p>The training dynamics and property of well-trained network were investigated.</p>
+
+    <ul>
+      <li>
+        <p>During training, weights along eigenvectors with larger eigenvalues converge first, and the network encode task ability with multiple eigen-modes.</p>
+      </li>
+      <li>
+        <p>Well trained networks have fixed projections along first few eigenvectors and accompanied with flexible projections alone rest of eigenvectors.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+  </article>
+
+</div>
 
     </div>
 
