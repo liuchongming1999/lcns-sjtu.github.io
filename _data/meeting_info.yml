@@ -88,11 +88,11 @@
 
 - presenter: Chongming Liu
   date: 2022-03-30 19:30:00
-  paper: TBD
-  url:
-  pdf:
-  authors:
-  slides:
+  paper: Towards Provable Learning of Polynomial Neural Networks Using Low-Rank Matrix Estimation
+  url: http://proceedings.mlr.press/v84/soltani18a.html
+  pdf: http://proceedings.mlr.press/v84/soltani18a/soltani18a.pdf
+  authors: Soltani, Mohammadreza, Chinmay Hegde
+  slides: https://202.120.13.81:10003/d/f/oF1KUJBAGQjSpNgTA7JuvDiTl4uYp0vB
 
 - presenter: Jingcheng Shi
   date: 2022-03-28 20:00:00
@@ -121,10 +121,10 @@
 - presenter: Chongming Liu
   date: 2022-03-16 19:00:00
   paper: Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression
-  url:
-  pdf:
-  authors:
-  slides:
+  url: https://www.sciencedirect.com/science/article/pii/S1568494621006049?via%3Dihub
+  pdf: https://pdf.sciencedirectassets.com/272229/1-s2.0-S1568494621X00117/1-s2.0-S1568494621006049/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLWVhc3QtMSJIMEYCIQD101sHMmeIAZK698HVF0vOAxc32wxZ5OYVVV6pPJ6BpAIhAIM2d%2BjV02xMtxe3U9KZgNy65EtXZ2zZ4blxPpnB4UuZKtsECOv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDU5MDAzNTQ2ODY1Igw1NsHa0l5FsQ0VxwEqrwQBtkFUcucfVWggODfDL3V07bTrWuR5rtWJWG8uR%2FV%2Fx2YP1y1XphIaeRZU5Dp15kVzH8SpYsl1d3V8VGE5gkYE4ibhnqddWkpW8z59zxnPiTe8Bkk41KaACRd9CZrgswSDRe2hUvJh21WD1WtHHUZ9XVHxNnQtirltpb3hKzTuIaoSM25byfmEt8MpXu%2BzDLnPGJGtD%2BOkpEug3gFj4j9g33BNBIGenjx2Ky5QHTzXRL2hhIy1sFVe4eRdqYfDHpPwttQOZ23VYUxCqdvmZnAN%2BfVIxU2QRMZDQniVw5uj4kLUJxpUvtph7%2BbovU%2F%2Fr%2BdHJVit7NzQi8ey46%2BLcGfqUDFoDaXtUX1pTDz7wovmZwCEwVDEuo%2BnC%2Bu4BI%2FrqRjdFLap4trbJaRmHygAlFmbub%2Fjihctfn%2FNoTL43tOHXM7zeRc3Pwxr%2F5fedclAY7OkWbI7XgCnSCHRRjKAzm9YOhApeZ1wTBupLDgsor5KCbnWK1I2IunaqVUlbMbxZTOd2PtUgOeIljPtblIVtksSmCScQ1moqvOX8Ta%2BnBuxwV0dDA1onDfqBKG%2BsBd6Nlm4pTYi6Z6pbu2oaNoq6tG%2F8ye%2Bm3bwkvR03c2R%2BkeCG%2FbrsXXUTv3uzersswNWV7bYx1k17qaVbquQI54JOAhKJyiMYOohk5OFeHkBkIjFag0j%2BQxaf8AoZ3%2BGNWeF8r5DNru5koyPFBD7OxMxn0RgE275TrIr0evQeWDNo2cpMLTcrpMGOqgB4h1U19v%2BvgqknbdaVMdfEUK01gb5QwoNc3BLMTXsjQ8OKgokeXLO%2FPMSydqBd1Ipm6Ui7MqwYWfUb%2BRKSv1M5P3fOLpEDREpfvPzi8hNO4wU0BSfj5O6wRWJL66EIPR%2B42wDOoWb32qlIeH8wKwCx9USZBltfs88P62yM6pxxvZ%2FdGWpGTVw37DpBFpPM4Tbl3S04hS6vaANcuSWGVPOKYSJdcZD65tO&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220429T100257Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4XTKHBFR%2F20220429%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b9f37387b771ab51aef668fea6b247f718b23cf5b5248e28ad3aec878f236c26&hash=f4a3241506bcd305018ed11b4652c9ac044b1ebdcc516bc4dbb6d4887be7f50e&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1568494621006049&tid=spdf-5fe889e6-e55f-4a2a-a362-9f293278c141&sid=04c65ced7832284bc46a3c7907a9115b3ef0gxrqa&type=client&ua=4d565055545152025a0553&rr=7037347a8e527e1a
+  authors: Dong Minhui, Cheng Tang, Junkai Ji, Qiuzhen Lin, Ka-chun Wong
+  slides: https://202.120.13.81:10003/d/f/ntP4meYvIs9dyKlxICnrVnlp54hOIqZb
 
 - presenter: Zheng Wang
   date: 2022-03-14 20:00:00
