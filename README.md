@@ -53,4 +53,3 @@ Check [here](docs/publications.md) for docs about adding new bib items.
 - [ ] Finish the resource page.
 - [ ] Add profile avatars for rest of group members.
 - [ ] Create project page.
-check
